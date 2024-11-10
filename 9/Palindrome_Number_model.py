@@ -7,9 +7,9 @@ class Solution:
         temp = x
 
         while temp != 0:
-            digit = temp % 10
-            reversed_num = reversed_num * 10 + digit
-            temp //= 10
+            digit = temp % 10   #1桁目の値を代入
+            reversed_num = reversed_num * 10 + digit    #reversed_numに1桁ずつ値を入れていく
+            temp //= 10     #1桁目を除外した数(12)を求める
 
         return reversed_num == x
         

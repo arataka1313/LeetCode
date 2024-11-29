@@ -1,6 +1,6 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        dp = [0] * (n + 1)  #dp[i]は1と2を使ってiを表現する方法の数を表す
+        dp = [0] * (n + 1)  #dp[i]は1と2を使ってiを表現する方法の数を格納するメモリ,長さn+1のdpというリストを用意する.
         
         dp[0] = 1   #初期条件
         

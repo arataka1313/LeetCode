@@ -3,9 +3,9 @@ import json
 import datetime
 import subprocess
 
-SOLUTIONS_DIR = "/home/arataka/leetcode/solutions"
-STREAK_FILE = "/home/arataka/leetcode/streak.json"
-DISCORD_SCRIPT = "/home/arataka/leetcode/reminder/send_discord.py"
+SOLUTIONS_DIR = "/home/student/e22/e225767/LeetCode/solutions"
+STREAK_FILE = "/home/student/e22/e225767/LeetCode/streak.json"
+DISCORD_SCRIPT = "/home/student/e22/e225767/LeetCode/reminder/send_discord.py"
 
 def is_today_updated(root_path):
     today = datetime.date.today()

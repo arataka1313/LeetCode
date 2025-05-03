@@ -1,4 +1,4 @@
 .env
 streak.json
-push_to_amane.sh
+push.sh
 cron.log
